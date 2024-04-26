@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prova.ShareDetails"
+             Title="ShareDetails">
+    <VerticalStackLayout>
+        <Image
+            x:Name="Logotipo"
+            Source="dotnet_bot.png"
+            HeightRequest="185"
+            Aspect="AspectFit"
+            SemanticProperties.Description="dot net bot in a race car number eight" />
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Text="Ação: " FontSize="12" LineBreakMode="WordWrap"></Label>
+            <Label Grid.Row="1" Grid.Column="0" Text="Nome longo: " FontSize="12" LineBreakMode="WordWrap"></Label>
+            <Label Grid.Row="2" Grid.Column="0" Text="Preço: " FontSize="12" LineBreakMode="WordWrap"></Label>
+            <Label Grid.Row="3" Grid.Column="0" Text="Tempo de mercado: " FontSize="12" LineBreakMode="WordWrap"></Label>
+            <Label Grid.Row="4" Grid.Column="0" Text="Percentual: " FontSize="12" LineBreakMode="WordWrap"></Label>
+            <Label Grid.Row="5" Grid.Column="0" Text="Lucro: " FontSize="12" LineBreakMode="WordWrap"></Label>
+            <Label Grid.Row="6" Grid.Column="0" Text="Moeda: " FontSize="12" LineBreakMode="WordWrap"></Label>
+
+
+            <Label Grid.Row="0" Grid.Column="1" x:Name="Dados" FontSize="12" LineBreakMode="WordWrap"></Label>
+            <Label Grid.Row="1" Grid.Column="1" x:Name="LongoNome" FontSize="12" LineBreakMode="WordWrap"></Label>
+            <Label Grid.Row="2" Grid.Column="1" x:Name="Valor" FontSize="12" LineBreakMode="WordWrap"></Label>
+            <Label Grid.Row="3" Grid.Column="1" x:Name="Tempo" FontSize="12" LineBreakMode="WordWrap"></Label>
+            <Label Grid.Row="4" Grid.Column="1" x:Name="Percentual" FontSize="12" LineBreakMode="WordWrap"></Label>
+            <Label Grid.Row="5" Grid.Column="1" x:Name="Lucro" FontSize="12" LineBreakMode="WordWrap"></Label>
+            <Label Grid.Row="6" Grid.Column="1" x:Name="Moeda" FontSize="12" LineBreakMode="WordWrap"></Label>
+
+
+            
+
+
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
